@@ -10,6 +10,7 @@ twobody.py
 
 threebody.py
 ![threebody](https://github.com/user-attachments/assets/06457e80-5751-48d9-9414-065a44eaa352)
+<img width="1594" height="1237" alt="image" src="https://github.com/user-attachments/assets/a87f44c8-ad5c-42d7-91e1-31d6646b2659" />
 
 
 
