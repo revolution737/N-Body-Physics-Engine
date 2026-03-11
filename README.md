@@ -38,10 +38,16 @@ The difference is visible in the energy graphs below.
 
 ### Energy Conservation Comparison (softening = 5)
 
+<img width="791" height="563" alt="image" src="https://github.com/user-attachments/assets/486c63e1-ecb3-44a2-b308-f6070266b776" />
+
+<img width="640" height="480" alt="rk4" src="https://github.com/user-attachments/assets/15cab16e-8038-412a-852a-852cd388b2e4" />
+
+<img width="640" height="480" alt="euler" src="https://github.com/user-attachments/assets/d656ea79-6513-4794-814b-f5a9e959231c" />
+
 | RK4 | Euler |
 |-----|-------|
-| Flat baseline until a genuine close encounter at t≈6, then stable again<img width="640" height="480" alt="rk4" src="https://github.com/user-attachments/assets/15cab16e-8038-412a-852a-852cd388b2e4" />
- | Oscillating baseline from the start, energy artificially injected on every close encounter, catastrophic ejection at t≈14 |
+| Flat baseline until a genuine close encounter at t≈6, then stable again
+| Oscillating baseline from the start, energy artificially injected on every close encounter, catastrophic ejection at t≈14 |
 
 Both systems eventually eject a body under these conditions — but RK4's ejection is a real physical event caused by an extreme close encounter. Euler's ejection is caused by accumulated numerical error artificially pumping energy into the system on every interaction until the system destabilizes.
 
